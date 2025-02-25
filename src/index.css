@@ -66,7 +66,7 @@ body {
     list-style: none;
   }
 
-  ul li .items {
+  .items {
     text-decoration: none;
     color: #ffffff;
     font-family: "Gothic A1", sans-serif;
@@ -501,7 +501,9 @@ main {
 }
 
 .footer-bottom-dowload {
-  background-image: url(./img/Vector.svg);
+  background: linear-gradient(to right, #eb0976, #761779), url(./img/Vector.svg);
+  background-position: center top;
+  background-blend-mode: overlay;
   padding: 164px 0 155px 0;
   h3 {
     font-family: Gothic A1;
@@ -510,7 +512,7 @@ main {
     line-height: 48px;
     letter-spacing: 0%;
     text-align: center;
-    color: red;
+    color: #ffffff;
     margin-bottom: 40px;
   }
 
@@ -533,6 +535,7 @@ main {
     letter-spacing: 0%;
     text-align: center;
     color: #ffffff;
+    cursor: pointer;
   }
 
   button:nth-child(2) {
@@ -543,9 +546,10 @@ main {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    color: red;
+    color: #ffffff;
     border: 1px solid #b04bb3;
     background-color: transparent;
+    cursor: pointer;
   }
 }
 /* COMPANY END */

@@ -207,13 +207,16 @@ function Home() {
         </div>
         <div className="mobile-container container">
           <img src="./img/mobiles.svg" alt="" />
-          <div className="footer-bottom-dowload">
-            <h3>Ready to get started?</h3>
-            <span>
-              <button>Download Now</button>
-              <button>Get in Touch</button>
-            </span>
-          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="footer-bottom-dowload">
+          <h3>Ready to get started?</h3>
+          <span>
+            <button>Download Now</button>
+            <button>Get in Touch</button>
+          </span>
         </div>
       </section>
       {/* COMPANY END */}
